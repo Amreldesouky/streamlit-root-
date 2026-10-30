@@ -7,7 +7,7 @@ st.set_page_config(page_title="My First App", page_icon="🚀", layout="wide")
 
 
 # ---------------------------------------------------------- fake data
-@st.cache_data
+# @st.cache_data
 def load_data():
     """Simple fake sales data (easy to read every value)."""
     df = pd.DataFrame({ 
